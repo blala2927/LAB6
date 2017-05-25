@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.fragment.lab.MainActivity">
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:hint="Enter some lines of data here."/>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/write"
+        android:text="1.WRITE SD FILE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onButton1Clicked"/>//ID is the write  button
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clear"
+        android:text="2.CLEAR SCREEN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onButton2Clicked"/>//ID is the clear button
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/read"
+        android:text="3.READ SD FILE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onButton3Clicked"/>//ID is the read button
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finish"
+        android:text="4.FINISH APP"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onButton4Clicked"/>>//ID is the finish button
+
+</LinearLayout>
